@@ -1,0 +1,779 @@
+.soundcite-loaded {
+    background-color: rgba(0,0,0,.15);
+    border-radius: 6px;
+    padding: 0 5px 0 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+footer {
+    background: none !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+footer img {
+    max-width: 170px;
+}
+
+.ppk img.img-responsive {
+    height: 360px !important;
+}
+
+.img-portada {
+    margin-right: 700px;
+    padding-right: 110px;
+    margin-bottom: -110px;
+    height: 450px;
+    width: 380px;
+}
+
+.text-convoca {
+    font-family: 'Open Sans', 'Helvetica Neue', 'Arial', 'sans-serif' !important;
+    text-align: justify !important;
+}
+
+section#part-one {
+    min-height: 3700px !important;
+}
+
+.img-two {
+    width: 100%;
+    height: 250px;
+    padding: 5px;
+}
+
+section#part-three {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+section#intro video#background_video {
+    background: #fff url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Palacio_de_Gobierno%2C_Lima%2C_Per%C3%BA%2C_2015-07-28%2C_DD_109.JPG/1200px-Palacio_de_Gobierno%2C_Lima%2C_Per%C3%BA%2C_2015-07-28%2C_DD_109.JPG') 50% 0 fixed !important;
+    opacity:0.5 !important;
+    background-color: black !important;
+    z-index:10;
+}
+
+.title-block-two {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.memberof {
+    width: 170px !important;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+*{
+    font-family: Helvetica;
+}
+a, a:focus, a:hover {
+    text-decoration: none !important;
+}
+.navbar {
+    background: #000;
+    color: #fff;
+    padding: 5px;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.navbar-brand{
+    margin-left: 30px !important;
+    padding: 4px !important;
+}
+.navbar-right{
+    margin-right: 0px !important;
+}
+.navbar-right a{
+    font-size: 18px;
+    color: #fff;
+}
+.navbar-brand>img{
+    max-height: 100%;
+}
+.navbar-nav>li>a {
+    color: #fff;
+    font-family: Helvetica;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: #B40404 !important;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.portada {
+    background: url('../img/abridora.jpg');
+    background-size: cover;
+    height: 680px;
+    margin-top: 50px;
+
+}
+.fondo {
+    background: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 680px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.nombre{
+    margin-top: 50px;
+    font-family: Helvetica;
+    font-size: 85px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #B40404;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.portada .bajada {
+    font-size: 20px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+.notas {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 30px 0px 10px;
+}
+.gris{
+    background: #ebebeb;
+}
+.blanco{
+    background: #fff;
+}
+.nota{
+    padding: 10px;
+    margin: 10px;
+    width: 350px;
+}
+.nota img{
+    max-width: 100%;
+}
+.nota .titulo{
+    color: #B40404;
+    font-size: 20px;
+    line-height: 22px;
+    padding-top: 10px;
+    margin: 0 0 4px;
+}
+.nota .titulo a{
+    text-decoration: none;
+    color: inherit;
+}
+.nota .descripcion {
+    color: #000;
+    font-size: 14px;
+}
+.linea{
+    border-top: 2px solid #B40404;
+    margin: 2px 40px 3px;
+}
+.seccion-nombre{
+    font-size: 30px;
+    color: #000;
+}
+.seccion {
+    padding: 50px 40px 40px;
+}
+.publicado{
+    font-size: 12px;
+    color: #666;
+    margin: 0 0 4px;
+}
+.publicado a{
+    text-decoration: none !important;
+    color: #666;
+}
+#analisis, #entrevistas, #investigaciones {
+    margin-top: -60px;
+    margin-bottom: 60px;
+}
+
+.creditos{
+    padding: 20px 10px;
+    background: #000;
+}
+.creditos p{
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.icon-menu{
+    font-size: 20px;
+}
+.menu{
+    padding: 0px 0px !important;
+    margin-top: 15px !important;
+}
+
+.redes-nota{
+    display: flex;
+    margin-top: -31px;
+}
+.redes-nota div{
+    padding: 5px 7px;
+    margin: 0px 1px;
+    background: #666;
+    color: #fff;
+}
+.redes-nota a{
+    color: #fff;
+}
+
+.navbar-s{
+    display: none !important;
+    visibility: hidden;
+}
+
+.sitio-texto p{
+    width: 70%;
+    margin: 0 auto 15px;
+}
+
+.sitio-texto p a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.suscribete{
+    font-size: 14px !important;
+}
+
+.filters-div {
+    padding-top: 50px;
+    margin-bottom: -75px;
+}
+
+.drop-menu {
+    margin: 15px 0 0 !important;
+}
+
+.filters-div div {
+    display: inline;
+    margin: 5px;
+}
+
+.etiqueta-sector {
+    color: #fff;
+    background: #000;
+    width: auto;
+    padding: 3px 8px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: Helvetica;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+.cv-ultimo div.nota {
+    margin: 0px !important;
+    width: 100% !important;
+    padding: 10px;
+}
+
+@media(min-width: 1600px){
+    .portada .nombre {
+        margin-top: 240px;
+    }
+}
+
+@media(max-width: 1100px){
+    .portada .nombre{
+        margin-bottom: 10px;
+        line-height: 60px;
+    }
+}
+
+@media(max-width: 767px){
+    .seccion {
+        padding: 40px 20px;
+    }
+    .nota{
+        width: 300px;
+    }
+    .nota .titulo{
+        font-size: 18px;
+    }
+    .navbar-right{
+        display: none !important;
+    }
+    .navbar-s{
+        display: flex !important;
+        float: right !important;
+        margin-right: 10px !important;
+        visibility: visible;
+    }
+    .portada{
+        background-size: 100%;
+        height: 600px;
+    }
+    .portada .bajada{
+        width: 90%;
+    }
+    .fondo{
+        height: 600px;
+    }
+    section#intro .title {
+        top: 30px;
+    }
+    .nombre {
+        font-size: 25px !important;
+    }
+    .explore {
+        left: -17%;
+    }
+    section#part-one article, section#part-two article, section#part-three article, section#nota article {
+        margin-top: 90px !important;
+        padding-left: 2% !important;
+        padding-right: 2% !important;
+    }
+    section#part-two {
+        margin-top: 1600px !important;
+    }
+    .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+        display: inline !important;
+    }
+    footer {
+        padding-top: 0px !important;
+    }
+    .img-portada {
+        margin-right: 700px;
+        padding-right: 110px;
+        margin-bottom: -110px;
+        height: 270px;
+        width: 380px;
+    }
+}
+
+@media (max-width: 568px) {
+    section#intro .title {
+        top: 30px !important;
+    }
+    .explore {
+        left: -17%;
+    }
+    section#part-one article, section#part-two article, section#part-three article, section#nota article {
+        margin-top: 165px !important;
+        padding-left: 2% !important;
+        padding-right: 2% !important;
+    }
+    section#part-two {
+        margin-top: 1600px !important;
+    }
+    .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+        display: inline !important;
+    }
+    footer {
+        padding-top: 0px !important;
+    }
+    .img-portada {
+        margin-right: 700px;
+        padding-right: 110px;
+        margin-bottom: -110px;
+        height: 270px;
+        width: 380px;
+    }
+}
+
+@media(max-width: 400px){
+    section#intro .title {
+        top: 30px !important;
+    }
+    .portada .nombre {
+        font-size: 35px;
+        line-height: 38px;
+        margin-top: 45px;
+    }
+    .portada .bajada {
+        font-size: 14px;
+        width: 90%;
+        padding-top: 10px;
+    }
+    .portada {
+        background-size: cover;
+        height: 300px;
+    }
+    .fondo{
+        height: 300px;
+    }
+    .nota{
+        padding: 10px 0;
+        margin: 10px 0;
+        width: 100%;
+    }
+    .seccion {
+        padding: 40px 10px;
+    }
+    .sitio-texto p{
+        width: 80%;
+    }
+    .explore {
+        left: -17%;
+    }
+    section#part-one article, section#part-two article, section#part-three article, section#nota article {
+        margin-top: 165px !important;
+        padding-left: 2% !important;
+        padding-right: 2% !important;
+    }
+    section#part-two {
+        margin-top: 1600px !important;
+    }
+    .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+        display: inline !important;
+    }
+    footer {
+        padding-top: 0px !important;
+    }
+    .img-portada {
+        margin-right: 700px;
+        padding-right: 110px;
+        margin-bottom: -110px;
+        height: 270px;
+        width: 380px;
+    }
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+*{
+    font-family: Helvetica;
+}
+a, a:focus, a:hover {
+    text-decoration: none !important;
+}
+.navbar {
+    background: #000;
+    color: #fff;
+    padding: 5px;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.navbar-brand{
+    margin-left: 30px !important;
+    padding: 4px !important;
+}
+.navbar-right{
+    margin-right: 0px !important;
+}
+.navbar-right a{
+    font-size: 18px;
+    color: #fff;
+}
+.navbar-brand>img{
+    max-height: 100%;
+}
+.navbar-nav>li>a {
+    color: #fff;
+    font-family: Helvetica;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: #B40404 !important;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.portada {
+    background: url('../img/bloque2.jpg');
+    background-size: cover;
+    height: 680px;
+    margin-top: 50px;
+
+}
+.fondo {
+    background: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 680px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.portada .nombre{
+    margin-top: 30px;
+    font-family: Helvetica;
+    font-size: 65px;
+    text-align: center;
+    color: #B40404;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.portada .bajada {
+    font-size: 20px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+.notas {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 30px 0px 10px;
+}
+.gris{
+    background: #ebebeb;
+}
+.blanco{
+    background: #fff;
+}
+.nota{
+    padding: 10px;
+    margin: 10px;
+    width: 350px;
+}
+.nota img{
+    max-width: 100%;
+    min-width: 330px;
+    min-height: 220px;
+}
+.nota .titulo{
+    color: #B40404;
+    font-size: 20px;
+    line-height: 22px;
+    padding-top: 10px;
+    margin: 0 0 4px;
+    text-transform: uppercase;
+}
+.nota .titulo a{
+    text-decoration: none;
+    color: inherit;
+}
+.nota .descripcion {
+    color: #000;
+    font-size: 14px;
+}
+.linea{
+    border-top: 2px solid #B40404;
+    margin: 2px 40px 3px;
+}
+.seccion-nombre{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    text-align: center !important;
+}
+.seccion {
+    padding: 50px 40px 40px;
+}
+.publicado{
+    font-size: 12px;
+    color: #666;
+    margin: 0 0 4px;
+}
+.publicado a{
+    text-decoration: none !important;
+    color: #666;
+}
+#analisis, #entrevistas, #investigaciones {
+    margin-top: -60px;
+    margin-bottom: 60px;
+}
+
+.creditos{
+    padding: 20px 10px;
+    background: #000;
+}
+.creditos p{
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.icon-menu{
+    font-size: 20px;
+}
+.menu{
+    padding: 0px 0px !important;
+    margin-top: 15px !important;
+}
+
+.redes-nota{
+    display: flex;
+    margin-top: -31px;
+}
+.redes-nota div{
+    padding: 5px 7px;
+    margin: 0px 1px;
+    background: #666;
+    color: #fff;
+}
+.redes-nota a{
+    color: #fff;
+}
+
+.navbar-s{
+    display: none !important;
+    visibility: hidden;
+}
+
+.sitio-texto p{
+    width: 70%;
+    margin: 0 auto 15px;
+}
+
+.sitio-texto p a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.suscribete{
+    font-size: 14px !important;
+}
+
+.filters-div {
+    padding-top: 50px;
+    margin-bottom: -50px;
+}
+
+.drop-menu {
+    margin: 15px 0 0 !important;
+}
+
+.filters-div div {
+    display: inline;
+    margin: 5px;
+}
+
+.etiqueta-sector {
+    color: #fff;
+    background: #000;
+    width: auto;
+    padding: 3px 8px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: Helvetica;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+@media(min-width: 1600px){
+    .portada .nombre {
+        margin-top: 240px;
+    }
+}
+
+@media(max-width: 1100px){
+    .portada .nombre{
+        margin-bottom: 10px;
+        line-height: 60px;
+    }
+}
+
+@media(max-width: 767px){
+    .seccion {
+        padding: 40px 20px;
+    }
+    .nota{
+        width: 300px;
+    }
+    .nota .titulo{
+        font-size: 18px;
+    }
+    .navbar-right{
+        display: none !important;
+    }
+    .navbar-s{
+        display: flex !important;
+        float: right !important;
+        margin-right: 10px !important;
+        visibility: visible;
+    }
+    .portada{
+        background-size: 100%;
+        height: 600px;
+    }
+    .portada .bajada{
+        width: 90%;
+    }
+    .fondo{
+        height: 600px;
+    }
+}
+
+@media(max-width: 400px){
+    .portada .nombre {
+        font-size: 35px;
+        line-height: 38px;
+        margin-top: 45px;
+    }
+    .portada .bajada {
+        font-size: 14px;
+        width: 90%;
+        padding-top: 10px;
+    }
+    .portada {
+        background-size: cover;
+        height: 300px;
+    }
+    .fondo{
+        height: 300px;
+    }
+    .nota{
+        padding: 10px 0;
+        margin: 10px 0;
+        width: 100%;
+    }
+    .seccion {
+        padding: 40px 10px;
+    }
+    .sitio-texto p{
+        width: 80%;
+    }
+}
